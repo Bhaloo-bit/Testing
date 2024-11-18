@@ -26,7 +26,7 @@ const anotherId = Symbol("123")
 
 
 const bigNumber =123123234234n
-console.log(typeof (bigNumber))
+// console.log(typeof (bigNumber))
 
 
 // Reference (Non primtive)
@@ -43,5 +43,26 @@ const myFunction= function(){
     console.log("hello world");
 
 }
+
+// **************************************
+
+// stack (Primitive ), Heap (Non-Primitive)
+
+let myYoutubename = "bhaloobit"
+
+let anothername= myYoutubename
+anothername= "chaiurcode"
+
+console.log(anothername);
+console.log(anothername);
+
+let userOne= {
+    name:"ramu",
+    email:"userone@gmail.com",
+    upi: "userone@upi"
+
+}
+
+
 
 
