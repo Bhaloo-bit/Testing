@@ -62,3 +62,4 @@ function returnsecondvalue(getArray){
 
 }
 console.log(returnsecondvalue(myNewArray));
+
