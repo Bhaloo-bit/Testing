@@ -9,12 +9,14 @@ const myHeros = ["spderman","bhaloo"]
 
 // Array methods 
 
-// myArry.push(6)
-// myArry.push(7)
-// myArry.pop()
+myArry.push(6)
+myArry.push(7)
+myArry.pop()
+console.log(myArry);
 
 // myArry.unshift(9)
 // myArry.shift()
+// console.log(myArry);
 
 console.log((typeof(myArry.includes(9))));
 console.log(myArry.indexOf(5));
@@ -24,12 +26,15 @@ console.log(typeof(myArry));
 
 // slice ,splice
 
-console.log("A", myArry);
+// console.log("A", myArry);
 
-const myn1 = myArry.slice(1,3)
-console.log(myn1);
-console.log("V", myArry)
+// const myn1 = myArry.slice(1,3)
+// console.log(myn1);
+// console.log("V", myArry)
 
-const myn2 = myArry.splice(1,3)
-console.log("C",myArry);
-console.log(myn2);
+// const myn2 = myArry.splice(1,3)
+// console.log("C",myArry);
+// console.log(myn2);
+[1,2,3,4,5,6]
+splice (1,3) = [1,2,3,4] [,5,6,]
+slice(1,3) = [1,2,3]

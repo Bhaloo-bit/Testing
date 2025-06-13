@@ -26,13 +26,23 @@ JsUser.email = "bhalobit@gmail.com"
 // Object.freeze(JsUser)
 // console.log(JsUser);
 
-JsUser.greeting = function(){
-    console.log("hello JsUser");
-}
-// console.log(JsUser.greeting);
+// JsUser.greeting = function(){
+//     console.log("hello JsUser");
+// }
+// // console.log(JsUser.greeting);
 
-JsUser.greetingTwo = function(){
-    console.log(`hello js user, ${this.name}`);
+// JsUser.greetingTwo = function(){
+//     console.log(`hello js user, ${this.name}`);
+// }
+// console.log(JsUser.greeting());
+// console.log(JsUser.greetingTwo());
+
+JsUser.greeting = function() {
+    console.log("Hello JS User")
 }
 console.log(JsUser.greeting());
+
+JsUser.greetingTwo = function(){
+    console.log(`Hello JsUser ${this["full name "]}`)
+}
 console.log(JsUser.greetingTwo());
