@@ -11,6 +11,11 @@ while (arr<Arry.length) {
     console.log(`My favorite Super hores are ${Arry[arr]}`)
     arr =arr +1
 }
+
+
+let score = 1
+
 do {
-    
-} while (condition);
+    console.log(`Score is ${score}`)
+    score++
+} while (score<=10);
